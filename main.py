@@ -60,5 +60,5 @@ def play_game() -> None:
 
 
 if __name__ == "__main__":
-	print("Tic-Tac-Toe")
+	print("Tic-Tac-Toe!")
 	play_game()
