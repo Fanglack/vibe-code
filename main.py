@@ -8,7 +8,7 @@ def display_board(board: list[str]) -> None:
 		cells = board[row * 3 : row * 3 + 3]
 		print(f" {cells[0]} | {cells[1]} | {cells[2]} ")
 		if row < 2:
-			print("---+---+---")
+			print("----+---+----")
 	print()
 
 
